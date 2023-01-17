@@ -89,24 +89,6 @@
 
   
     <script src="index.js"></script>
-    <script>
-      function sendEmail(){
-      Email.send({
-        Host : "smtp.gmail.com",
-        Username : "muhammadimrank034@gmail.com",
-        Password : "@madanichannel63",
-        To : 'muhammadimrank034@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Event ",
-        Body : "Name : " + document.getElementById("name").value
-          + "<br> Email = " + document.getElementById("email").value
-          + "<br> Phone no. = " + document.getElementById("phone").value
-          + "<br> Message = " + document.getElementById("Message").value
-      }).then(
-        message => alert("message")
-        );
-    }
-    </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
   </body>
 </html>
